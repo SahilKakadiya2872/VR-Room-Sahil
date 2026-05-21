@@ -47,9 +47,11 @@ The pathway covered:
 ### VR Room Overview
 <img src="Screenshots/vr-room-overview.png" width="800"/>
 
+### VR Interaction
 <img src="Screenshots/vr-interaction.png" width="800"/>
 
-<img src="Screenshots/teleportation-system.png" width="800"/>
+### Object Interaction
+<img src="Screenshots/object-interaction.png" width="800"/>
 
 ---
 
