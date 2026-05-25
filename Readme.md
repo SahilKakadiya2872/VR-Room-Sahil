@@ -1,98 +1,107 @@
-# VR Room Experience – Unity XR Project
+<div align="center">
 
-An interactive VR room experience developed in Unity using the XR Interaction Toolkit. The project allows users to explore a virtual room environment using VR controllers with realistic interactions, object grabbing, teleportation movement, and immersive VR mechanics.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,8,14&height=220&section=header&text=VR%20Room%20Experience&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Unity%20XR%20%C2%B7%20Interaction%20Toolkit%20%C2%B7%20OpenXR%20%C2%B7%20VR%20Certification%20Pathway&descAlignY=60&descSize=15" />
 
----
+[![Unity](https://img.shields.io/badge/Unity-2021+-000000?style=for-the-badge&logo=unity)](https://unity.com)
+[![OpenXR](https://img.shields.io/badge/OpenXR-4B0082?style=for-the-badge)](https://www.khronos.org/openxr/)
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Unity VR Pathway](https://img.shields.io/badge/🎓_Unity_VR_Pathway-View_Course-FF6B00?style=for-the-badge)](https://learn.unity.com/pathway/vr-development)
 
-## Project Goal
+<br>
 
-This project was created as part of the official Unity VR Development learning pathway to understand the fundamentals of VR development, immersive interaction systems, and XR-based environment design.
+> *Built as part of the official Unity VR Development certification pathway.*
+> *Focus: XR interaction fundamentals, VR locomotion, and immersive environment design.*
 
-The main focus was learning how to build interactive VR experiences using Unity and XR Interaction Toolkit.
-
----
-
-## Unity Learning Pathway
-
-This project was developed during the official Unity VR Development pathway:
-
-🔗 https://learn.unity.com/pathway/vr-development
-
-The pathway covered:
-- XR Interaction Toolkit
-- VR interaction systems
-- Teleportation
-- Controller input
-- VR UI systems
-- Object interaction
-- Immersive environment setup
+</div>
 
 ---
 
-## Features
+## Overview
 
-- VR room exploration
-- Teleportation movement system
-- Realistic object interaction
-- Grabbable objects
-- XR controller support
-- VR UI interaction
-- Immersive environment design
-- Physics-based interactions
+An interactive VR room experience built in Unity using the XR Interaction Toolkit — featuring teleportation movement, object grabbing, physics-based interactions, and XR controller support. Developed as part of the **Unity VR Development** certification pathway to build foundational VR development skills.
 
 ---
 
 ## Screenshots
 
-### VR Room Overview
-<img src="Screenshots/vr-room-overview.png" width="800"/>
+<div align="center">
 
-### VR Interaction
-<img src="Screenshots/vr-interaction.png" width="800"/>
+<img src="Screenshots/vr-room-overview.png" width="49%" />
+&nbsp;
+<img src="Screenshots/vr-interaction.png" width="49%" />
 
-### Object Interaction
-<img src="Screenshots/object-interaction.png" width="800"/>
+<br><br>
+
+<img src="Screenshots/object-interaction.png" width="60%" />
+
+</div>
 
 ---
 
-## Technologies Used
+## Features
 
-- Unity
-- C#
-- XR Interaction Toolkit
-- XR Plugin Management
-- OpenXR
-- Unity Input System
+| | Feature |
+|---|---|
+| 🚶 | Teleportation movement system |
+| ✋ | Grabbable objects with physics |
+| 🎮 | Full XR controller support |
+| 🖥️ | VR UI interaction system |
+| 🏠 | Immersive room environment |
+| ⚙️ | OpenXR cross-platform setup |
 
 ---
 
 ## Controls
 
+<div align="center">
+
 | Input | Action |
-|---|---|
-| VR Controllers | Hand interaction |
-| Trigger Button | Grab objects |
-| Thumbstick | Teleport movement |
-| Controller Ray | UI interaction |
+|:---:|:---|
+| `Trigger Button` | Grab objects |
+| `Thumbstick` | Teleport movement |
+| `Controller Ray` | UI interaction |
+| `VR Controllers` | Hand presence |
+
+</div>
 
 ---
 
-## How to Run the Project
+## Tech Stack
 
-1. Install Unity Hub
-2. Install Unity Editor (2021 or newer recommended)
-3. Clone or download this repository
-4. Open the project using Unity Hub
-5. Ensure XR Plugin Management is enabled
-6. Connect a compatible VR headset
-7. Open the main scene
-8. Press Play inside Unity
+<div align="center">
+
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp)
+![XR Toolkit](https://img.shields.io/badge/XR_Interaction_Toolkit-4B0082?style=for-the-badge)
+![OpenXR](https://img.shields.io/badge/OpenXR-000000?style=for-the-badge)
+![Input System](https://img.shields.io/badge/Unity_Input_System-000000?style=for-the-badge&logo=unity)
+
+</div>
+
+---
+
+## How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/SahilKakadiya2872/VR-Room-Sahil.git
+
+# 2. Open Unity Hub and add the project folder
+
+# 3. Open with Unity 2021 or newer
+
+# 4. Enable XR Plugin Management in Project Settings
+
+# 5. Connect a compatible VR headset
+
+# 6. Open the main scene and press Play
+```
 
 ---
 
 ## Project Structure
 
-```text
+```
 VR-Room-Sahil/
 ├── Assets/
 │   ├── _Course Library/
@@ -100,43 +109,49 @@ VR-Room-Sahil/
 │   ├── Samples/
 │   ├── Scenes/
 │   ├── Settings/
-│   ├── TextMesh Pro/
 │   ├── XR/
 │   └── XRI/
 ├── Packages/
 ├── ProjectSettings/
 ├── Screenshots/
-├── Build/
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
 
 ## What I Learned
 
-- Basics of VR development in Unity
-- XR Interaction Toolkit workflow
-- VR locomotion systems
-- Teleportation mechanics
-- Controller interaction systems
-- Physics interaction in VR
-- XR UI systems
-- Immersive environment setup
-- VR optimization fundamentals
+| Area | Skills Gained |
+|---|---|
+| VR Fundamentals | XR Interaction Toolkit setup, OpenXR configuration |
+| Locomotion | Teleportation system, movement boundaries |
+| Interaction | Grab mechanics, physics-based object handling |
+| UI | XR UI canvas, controller ray interaction |
+| Optimisation | VR performance fundamentals, draw calls |
 
 ---
 
-## Challenges Faced
+## Challenges & Solutions
 
-- Understanding XR interaction setup
-- Configuring VR controller inputs
-- Creating natural interaction behavior
-- Learning teleportation systems
-- Managing XR project settings
+| Challenge | Solution |
+|---|---|
+| XR interaction setup complexity | Followed Unity's official pathway step by step |
+| Controller input configuration | Used Unity's new Input System with XR bindings |
+| Natural grab behaviour | Tuned physics and attachment points iteratively |
+| Teleportation boundary setup | Used Teleportation Area and Anchor components |
 
 ---
 
-## Developer
+<div align="center">
 
-Sahil Kakadiya
+**[← Back to Profile](https://github.com/SahilKakadiya2872)**
+&nbsp;&nbsp;|&nbsp;&nbsp;
+**[🌐 Portfolio](https://sahil-vr-portfolio.vercel.app)**
+&nbsp;&nbsp;|&nbsp;&nbsp;
+**[🎓 Unity VR Pathway](https://learn.unity.com/pathway/vr-development)**
+&nbsp;&nbsp;|&nbsp;&nbsp;
+**[🏅 View Certification](https://www.credly.com/go/5D76S9ZR)**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,8,14&height=100&section=footer" />
+
+</div>
